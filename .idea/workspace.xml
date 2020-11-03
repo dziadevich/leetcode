@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da01c5bf-3758-4d56-b45b-649a060f2f4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/MinimumSubsequenceinNonIncreasingOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/easy/MinCostClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/easy/MinCostClimbingStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     <property name="project.structure.side.proportion" value="0.2850575" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MinimumSubsequenceinNonIncreasingOrder">
     <configuration name="MinCostClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11_machine" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -61,8 +61,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinimumSubsequenceinNonIncreasingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.MinimumSubsequenceinNonIncreasingOrder" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumSubsequenceinNonIncreasingOrder" />
         <item itemvalue="Application.MinCostClimbingStairs" />
       </list>
     </recent_temporary>
@@ -90,7 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604327852379</updated>
       <workItem from="1604327859225" duration="2850000" />
-      <workItem from="1604337268799" duration="2838000" />
+      <workItem from="1604337268799" duration="3486000" />
+      <workItem from="1604404379783" duration="515000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1604328682482</created>
@@ -113,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604339609707</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <created>1604340148116</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604340148116</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,50 +147,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="26" key="#Notifications" timestamp="1604404511169">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="26" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1604404511169" />
     <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604339280261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604339280261" />
-    <state x="321" y="0" width="807" height="728" key="CommitChangelistDialog2" timestamp="1604339608115">
+    <state x="321" y="0" width="807" height="728" key="CommitChangelistDialog2" timestamp="1604340146602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" width="807" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604339608115" />
+    <state x="321" y="0" width="807" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604340146602" />
     <state x="463" y="69" key="FileChooserDialogImpl" timestamp="1604330891410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="69" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604330891410" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1604340124912">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1604404950934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604340124912" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1604340124912">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604404950934" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1604404950934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604340124912" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1604340124912">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604404950934" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1604404950933">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604340124912" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1604340124912">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604404950933" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1604404950934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604340124912" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1604340119810">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604404950934" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1604404951791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604340119810" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1604340119809">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604404951791" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1604404951790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604340119809" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1604340119809">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604404951790" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1604404951790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604340119809" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1604340119809">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604404951790" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1604404951790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604340119809" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604404951790" />
     <state x="350" y="70" key="NewModule_or_Project.wizard" timestamp="1604330939614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -177,10 +203,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604339438955" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1604328695862">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1604340155901">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604328695862" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604340155901" />
     <state x="400" y="176" key="jetbrains.nodejs.interpreters-dialog" timestamp="1604330523759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -202,6 +228,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/easy/MinCostClimbingStairs.java</url>
           <line>21</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/MinimumSubsequenceinNonIncreasingOrder.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
