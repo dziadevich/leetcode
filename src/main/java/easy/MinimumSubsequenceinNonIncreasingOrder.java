@@ -21,13 +21,15 @@ public class MinimumSubsequenceinNonIncreasingOrder {
     public List<Integer> minSubsequence(int[] nums) {
         Arrays.sort(nums);
         int sum1 = 0, sum2 = 0;
-        for (int num : nums) sum1 += num;
+        for (int num : nums)
+            sum1 += num;
         List<Integer> ans = new ArrayList<>();
         for (int i = nums.length - 1; i >= 0; i--) {
             ans.add(nums[i]);
             sum2 += nums[i];
             sum1 -= nums[i];
-            if (sum2 > sum1) break;
+            if (sum2 > sum1)
+                break;
         }
         return ans;
     }
