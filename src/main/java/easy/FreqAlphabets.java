@@ -1,6 +1,21 @@
 package easy;
 
 public class FreqAlphabets {
+
+    public int[] decompressRLElist(int[] nums) {
+        int size=0;
+        for(int i=0;i<nums.length;i=i+2)
+            size=size+nums[i];
+        int[] output= new int[size];
+        int k=0;
+        for(int i=0,j=1;j<nums.length;i=i+2,j=j+2){
+            for(int l=0;l<nums[i];l++){
+                output[k++]=nums[j];
+            }
+        }
+        return output;
+    }
+
     public static void main(String[] args) {
         System.out.println(FreqAlphabets.freqAlphabets("10#11#12"));
     }
