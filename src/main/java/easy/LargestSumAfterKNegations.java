@@ -10,7 +10,7 @@ public class LargestSumAfterKNegations {
     public static void main(String[] args) {
 //        System.out.println(LargestSumAfterKNegations.largestSumAfterKNegations(new int[]{3,-1,0,2}, 3));
 
-//        System.out.println(LargestSumAfterKNegations.largestSumAfterKNegations(new int[]{2,-3,-1,5,-4}, 2));
+        System.out.println(LargestSumAfterKNegations.largestSumAfterKNegations(new int[]{2,-3,-1,5,-4}, 2));
 
         System.out.println(LargestSumAfterKNegations.bitwiseComplement(5));
     }
@@ -35,6 +35,7 @@ public class LargestSumAfterKNegations {
         ++log;
         int setBits = (1 << log) - 1;
         int resp = setBits ^ n;
+        int[] p = {1, 2, 3};
         return setBits ^ n;
     }
 }
