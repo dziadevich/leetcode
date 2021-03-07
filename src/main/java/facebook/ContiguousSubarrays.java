@@ -2,7 +2,9 @@ package facebook;
 
 import java.util.Arrays;
 import java.util.Stack;
-
+/*
+    https://www.facebookrecruiting.com/portal/coding_practice_question/?problem_id=226517205173943
+ */
 public class ContiguousSubarrays {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(new ContiguousSubarrays().countSubarrays(new int[]{3, 4, 1, 6, 2})));

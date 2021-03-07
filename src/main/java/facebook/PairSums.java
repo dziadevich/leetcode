@@ -1,7 +1,9 @@
 package facebook;
 
 import java.util.Arrays;
-
+/*
+    https://www.facebookrecruiting.com/portal/coding_practice_question/?problem_id=840934449713537
+ */
 public class PairSums {
     public static void main(String[] args) {
         System.out.println(new PairSums().numberOfWays(new int[]{1, 2, 3, 4, 3}, 6)); // 2

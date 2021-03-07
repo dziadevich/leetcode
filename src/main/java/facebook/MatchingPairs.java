@@ -2,7 +2,9 @@ package facebook;
 
 import java.util.HashSet;
 import java.util.Set;
-
+/*
+    https://www.facebookrecruiting.com/portal/coding_practice_question/?problem_id=559324704673058
+ */
 public class MatchingPairs {
     public static void main(String[] args) {
         System.out.println(new MatchingPairs().matchingPairs("abcd", "abcb"));
