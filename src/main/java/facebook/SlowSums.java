@@ -1,7 +1,9 @@
 package facebook;
 
 import java.util.Arrays;
-
+/*
+    https://www.facebookrecruiting.com/portal/coding_practice_question/?problem_id=836241573518034
+ */
 public class SlowSums {
     int getTotalTime(int[] arr) {
         // Write your code here
