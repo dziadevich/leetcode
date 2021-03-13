@@ -1,5 +1,7 @@
 package medium;
 
+import java.util.Stack;
+
 /*
 https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
  */
@@ -33,7 +35,7 @@ public class FlattenBinaryTreetoLinkedList {
         Link the previous element in the processing to the current element and
         make the next previous as current element.
         */
-        if(prev != null) {
+        if (prev != null) {
             prev.right = root;
         }
         prev = root;
@@ -50,6 +52,26 @@ public class FlattenBinaryTreetoLinkedList {
         */
         flatten(left);
         flatten(right);
+    }
+
+    public void flatten2(TreeNode root) {
+        if (root == null)
+            return;
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode curr = stack.pop();
+            if (curr.right != null) {
+                stack.push(curr.right);
+            }
+            if (curr.left != null) {
+                stack.push(curr.left);
+            }
+            if (!stack.isEmpty()) {
+                curr.right = stack.peek();
+            }
+            curr.left = null;
+        }
     }
 }
 
