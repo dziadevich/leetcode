@@ -32,7 +32,7 @@ public class TicTacToe {
 
         if (Math.abs(diagonalSum) == 3 || Math.abs(antiDiagonalSum) == 3
                 || Math.abs(rows[row]) == 3 ||Math.abs(columns[col]) == 3)
-            return playerValue;
+            return player;
 
             return 0;
     }
