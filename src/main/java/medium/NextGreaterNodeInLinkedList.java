@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
-
+/*
+https://leetcode.com/problems/next-greater-node-in-linked-list/
+ */
 public class NextGreaterNodeInLinkedList {
 
     public static void main(String[] args) {
