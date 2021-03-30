@@ -12,10 +12,7 @@ public class OpentheLock {
     public int openLock(String[] deadends, String target) {
 
         // Declare a dead end SET in order to compare the value
-        Set<String> deadEndsSet = new HashSet<String>();
-        for (String s : deadends) {
-            deadEndsSet.add(s);
-        }
+        Set<String> deadEndsSet = new HashSet<String>(Arrays.asList(deadends));
 
         // Check if string 0000 match target
         if (initializedValue.equals(target)) {
