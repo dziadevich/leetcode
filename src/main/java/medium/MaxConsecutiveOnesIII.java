@@ -1,5 +1,7 @@
 package medium;
-
+/*
+https://leetcode.com/problems/max-consecutive-ones-iii/
+ */
 public class MaxConsecutiveOnesIII {
     public static void main(String[] args) {
         System.out.println(new MaxConsecutiveOnesIII().longestOnes1(
